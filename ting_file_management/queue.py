@@ -20,4 +20,3 @@ class Queue(AbstractQueue):
         if index >= 0 and index < len(self.queue):
             return self.queue[index]
         raise IndexError("Index out of range")
-        
