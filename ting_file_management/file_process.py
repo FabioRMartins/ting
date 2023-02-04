@@ -14,7 +14,7 @@ def process(path_file, instance):
         "qtd_linhas": len(file),
         "linhas_do_arquivo": file,
     }
-        
+
     instance.enqueue(data)
     print(data)
     print("Arquivo adicionado com sucesso!")
